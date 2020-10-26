@@ -12,6 +12,13 @@
 </head>
 
 <body>
+    <div class="beatingHeart">
+        <div class="heart"></div>
+        <div class="heart heart2"></div>
+        <div class="heart heart3 pinkHeart"></div>
+        <div class="heart heart4 fushiaHeart"></div>
+        <div class="heart hear5 pinkHeart"></div>
+    </div>
     <!--Navbar-->
     <nav class="navbar">
         <input type="checkbox" id="check" class="checkbox" hidden>
@@ -183,6 +190,10 @@
         </div>
     </footer>
     <!--End of footer-->
-</body>
-
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(window).on("load", function() {
+            $(".beatingHeart").fadeOut("slow")
+        })
+    </script>
+</body></html>
