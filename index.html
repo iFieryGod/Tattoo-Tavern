@@ -195,5 +195,9 @@
         $(window).on("load", function() {
             $(".beatingHeart").fadeOut("slow")
         })
+        document.querySelector('.main-btn').addEventListener("click", function() {
+            $(".beatingHeart").fadeIn("slow");
+            $(".beatingHeart").fadeOut("slow");
+        })
     </script>
 </body></html>
