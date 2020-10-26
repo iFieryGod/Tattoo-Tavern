@@ -6,7 +6,7 @@
         display: flex;
 
         &-left {
-            background-color: $color-grey;
+            background-color: $color-tblue;
             width: 50vw;
             height: 100vh;
             color: $color-dark;
@@ -185,6 +185,9 @@
             height: 105vh;
         }
 
+        @media(max-height: 1300px) {
+            height: 50vh;
+        }
 
         &-left {
             width: 40%;
@@ -286,6 +289,10 @@
             height: 60vh;
         }
 
+        @media(max-height: 1300px) {
+            height: 30vh;
+        }
+
         @media(max-height: 500px) {
             height: 70vh;
         }
@@ -369,6 +376,10 @@
                 height: 60vh;
             }
 
+            @media(max-height: 1300px) {
+                width: 50%;
+            }
+
             &:hover .designer-wrapper-overlay {
                 left: 0;
                 background-color: rgba($color-black, .5)
@@ -399,6 +410,10 @@
                         font-size: 20px;
                     }
 
+                    @media(max-height: 1300px) {
+                        font-size: 45px
+                    }
+
                     @media(max-width: 500px) {
                         font-size: 20px;
                     }
@@ -420,6 +435,11 @@
                     @media(max-width: 500px) {
                         font-size: 12px;
                     }
+
+                    @media(max-height: 1300px) {
+                        font-size: 30px
+                    }
+
                 }
 
                 &-btn {
@@ -453,6 +473,13 @@
                         width: 90px;
                         height: 25px;
                     }
+
+                    @media(max-height: 1300px) {
+                        width: 150px;
+                        height: 50px;
+                        font-size: 20px;
+                    }
+
 
                     &:hover {
                         transform: translateY(-10px);
@@ -488,6 +515,7 @@
         @media(max-height: 500px) {
             margin-top: 200px;
         }
+
     }
 
     .social-media {

@@ -11,6 +11,11 @@
         height: 35px;
     }
 
+    @media(max-height: 1300px) {
+        width: 50px;
+        height: 50px;
+    }
+
     .menu {
         @extend %fullSpace;
         display: flex;
@@ -28,6 +33,10 @@
 
             @media(max-width: 800px) {
                 height: 3px;
+            }
+
+            @media(max-height: 1300px) {
+                height: 4px;
             }
         }
     }
@@ -49,6 +58,10 @@
 
     @media(max-height: 500px) {
         font-size: 30px;
+    }
+
+    @media(max-height: 1300px) {
+        font-size: 50px;
     }
 }
 
@@ -94,6 +107,10 @@
 
     @media(max-width: 500px) {
         font-size: 50px;
+    }
+
+    @media(max-height: 1300px) {
+        font-size: 100px;
     }
 
 }
