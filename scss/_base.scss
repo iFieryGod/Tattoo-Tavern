@@ -1,0 +1,51 @@
+$color-dark: #262626;
+$color-black: #000;
+$color-primary: #FFF07C;
+$color-white: #fff;
+$color-secondary: #bbb;
+$color-main: #8F3985;
+$color-tblue: #07BEB8;
+$color-cRed: #E94F37;
+$color-grey: #393E41;
+$color-Sgreen: #80FF72;
+
+$font-kwScript: 'Knewave',
+cursive;
+$font-owScript: 'Oswald',
+sans-serif;
+$font-ksFlower: 'Kaushan Script',
+cursive;
+
+@mixin flexLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin centering($topValue) {
+    position: absolute;
+    top: $topValue;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin textStyles($transform: uppercase) {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: $transform;
+}
+
+%fullSpace {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $color-dark;
+    font-family: 'Patrick Hand', cursive;
+}
