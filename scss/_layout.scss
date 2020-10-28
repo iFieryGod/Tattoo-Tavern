@@ -174,7 +174,7 @@
 
 .salute-style {
     display: flex;
-    background: linear-gradient(rgba($color-black, .8), rgba($color-black, .6)), url(../image/tattoo-10.webp) center no-repeat;
+    background: linear-gradient(rgba($color-black, .8), rgba($color-black, .6)), url(../image/image.webp) center no-repeat;
     background-size: cover;
 
     .about-us {
@@ -403,6 +403,7 @@
                     font-family: $font-ksFlower;
                     font-size: 50px;
                     @include textStyles(capitalize);
+                    color: $color-tblue;
 
                     @media(max-width: 800px) {
                         font-size: 25px;
@@ -443,7 +444,7 @@
                 &-btn {
                     width: 150px;
                     height: 40px;
-                    color: $color-tblue;
+                    color: $color-cRed;
                     background-color: $color-white;
                     font-family: $font-owScript;
                     font-size: 14px;
